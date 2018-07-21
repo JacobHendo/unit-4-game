@@ -1,0 +1,54 @@
+.scoreboard-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width:330px;
+    margin:auto;
+}
+.target-number{
+    background-color: aquamarine;
+    color:white;
+    font-size: 30px;
+    width: 220px;
+    height: 100px;
+    margin-right: 10px; 
+    text-align: center;
+}
+.scoreboard{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+.crystal-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width:630px;
+    padding:40px;
+    grid-column-gap: 30px;
+    margin:auto;
+}
+img{
+    width: 100%
+}
+.yourscore-board{
+    background-color: blueviolet;
+    color:black;
+    font-size: 25px;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+.tracker{
+    width: 150px;
+    height: 75px;
+    background-color: blueviolet;
+    color: black;
+    margin:15px;
+    font-size: 20px;
+}
